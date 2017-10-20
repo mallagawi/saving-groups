@@ -9,7 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ui</artifactId>
+    <artifactId>server</artifactId>
+
+
     <build>
         <pluginManagement>
             <plugins>
@@ -28,14 +30,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.cleansoft.savago</groupId>
-            <artifactId>groups</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
         </dependency>
     </dependencies>
 
