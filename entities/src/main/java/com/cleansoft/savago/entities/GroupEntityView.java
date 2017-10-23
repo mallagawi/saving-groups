@@ -12,4 +12,9 @@ public class GroupEntityView implements EntityView {
         this.groupDescription = groupDescription;
         this.groupShares = shares;
     }
+
+    @Override
+    public String toString() {
+        return "Group ID:" + groupId + " Group Name:" + groupName;
+    }
 }

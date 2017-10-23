@@ -13,11 +13,13 @@
     </properties>
 
     <modules>
+        <module>db-entities</module>
         <module>entities</module>
+        <module>commons</module>
+        <module>daos</module>
         <module>groups</module>
         <module>ui</module>
         <module>restapi</module>
-        <module>server</module>
         <module>webapp-war</module>
     </modules>
 </project>

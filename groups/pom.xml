@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>groups</artifactId>
+    <artifactId>savago-groups</artifactId>
 
 
 
@@ -42,7 +42,7 @@
         </dependency>
         <dependency>
             <groupId>com.cleansoft.savago</groupId>
-            <artifactId>entities</artifactId>
+            <artifactId>savago-entities</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
